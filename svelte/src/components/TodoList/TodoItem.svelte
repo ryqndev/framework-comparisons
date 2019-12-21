@@ -1,9 +1,7 @@
 <script>
     export let content;
-    let toggle = () => {
-
-    }
-    let complete = true;
+    let toggle = () => { complete = !complete }
+    $: complete = false;
 </script>
 
 <style>

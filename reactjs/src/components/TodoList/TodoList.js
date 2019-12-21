@@ -23,12 +23,12 @@ function TodoList(){
             input: 'text',
             inputPlaceholder: 'Enter Name of Todo'
         });
-        if(text) setTodos([ ...todos, text ])
+        if(text) setTodos([ ...todos, text ]);
     }
 
     return (
         <div id="todo-list">
-            { todos.map( (e, i) => <TodoItem key={i} content={e}/> ) }
+            { todos.map( (e, i) => <TodoItem key={i} content={e} /> ) }
             <div className="todo-user--add" onClick={add}>
                 <div className="todo-content todo-content--add"> add an item </div>
             </div>

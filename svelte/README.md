@@ -1,3 +1,22 @@
+# Compilation info and time
+```bash
+ryqndev@Ryans-MacBook-Pro svelte % npm run-script build
+
+> svelte-app@1.0.0 build /Users/ryqndev/Desktop/Workspace/framework-comparisons/svelte
+> rollup -c
+
+
+src/main.js → public/build/bundle.js...
+created public/build/bundle.js in 1.5s
+
+ryqndev@Ryans-MacBook-Pro svelte % 
+
+```
+
+
+# Generated template readme
+Below is the readme content that is automatically generated to help you run this app
+
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
